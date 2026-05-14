@@ -1,0 +1,23 @@
+name: PCD README update
+
+on:
+  repository_dispatch:
+    types: [pcd-published]
+
+jobs:
+  update:
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: SMPTE/html-pub/.github/workflows/pcd-update-reusable.yml@issues/0411-pcd-automation
+    with:
+      tag: ${{ github.event.client_payload.tag }}
+      release_url: ${{ github.event.client_payload.release_url }}
+      doc_url: ${{ github.event.client_payload.doc_url }}
+      private_repo: ${{ github.event.client_payload.private_repo }}
+      private_repo_name: ${{ github.event.client_payload.private_repo_name }}
+      public_repo: ${{ github.event.client_payload.public_repo }}
+      public_repo_name: ${{ github.event.client_payload.public_repo_name }}
+      end_1: ${{ github.event.client_payload.end_1 }}
+      end_2: ${{ github.event.client_payload.end_2 }}
+      message: ${{ github.event.client_payload.message }}
