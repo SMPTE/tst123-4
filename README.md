@@ -6,7 +6,7 @@ _This repository is public._
 ## Public Committee Draft (PCD) Notice
 
 This Committee Draft is made available for a public review period ending no
-earlier than 2026-05-15, and no later than 2026-05-15.
+earlier than 2026-05-12, and no later than 2026-05-14.
 
 To view the document, visit <https://doc.smpte-doc.org/tst123-4-private/20260208-cd/>.
 
