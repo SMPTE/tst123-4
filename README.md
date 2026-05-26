@@ -2,7 +2,29 @@
 
 _This repository is public._
 
-<!-- PCD-INFO:START --><!-- PCD-INFO:END -->
+<!-- PCD-INFO:START -->
+## Public Committee Draft (PCD) Notice
+
+This Committee Draft is made available for a public review period ending no
+earlier than YYYY-MM-DD, and no later than YYYY-MM-DD.
+
+To view the document, visit <https://doc.smpte-doc.org/tst123-4-private/20260308-cd/>.
+
+- **Release tag:** [20260308-cd](https://github.com/SMPTE/tst123-4-private/releases/tag/20260308-cd)
+- **Source:** SMPTE/tst123-4-private
+- **How to comment:** Open an issue on this repository, https://github.com/SMPTE/tst123-4/issues
+
+This material is work under development and shall not be referred to as a SMPTE
+Standard, Recommended Practice, or Engineering Guideline. It is distributed for
+review and comment; distribution does not constitute publication.
+
+A list of all public CDs can be found on the SMPTE website
+https://www.smpte.org/public-committee-drafts#listing
+
+## Details
+
+Enter marketing message. If a revision, also describe what changed in this revision.
+<!-- PCD-INFO:END -->
 
 ## Notices
 
